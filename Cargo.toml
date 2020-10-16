@@ -1,0 +1,11 @@
+[package]
+name = "elm-english-words-builder"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+path = "builder.rs"
+name = "builder"
+
+[dependencies]
+reqwest = { version = "0.10", features = ["blocking"] }

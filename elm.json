@@ -1,0 +1,15 @@
+{
+    "type": "package",
+    "name": "dullbananas/elm-english-words",
+    "summary": "summary",
+    "license": "MIT",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "EnglishWords"
+    ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+        "elm/core": "1.0.0 <= v <= 2.0.0"
+    },
+    "test-dependencies": {}
+}
